@@ -47,6 +47,7 @@ else:
     print(f"Поздравляю! В этот раз победил {player2}")
 
 
+# Игра против бота
 from random import randint
 
 def input_dat(name):
