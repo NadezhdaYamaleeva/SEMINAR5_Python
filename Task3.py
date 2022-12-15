@@ -17,7 +17,7 @@ def choice(tic_tac):
         try:
             player_index =int(player_index)
         except:
-            print('Что то не то нажали')
+            print('Что-то не то нажали')
             continue
         if player_index >= 1 and player_index <= 9:
             if(str(board[player_index-1]) not in 'XO'):
